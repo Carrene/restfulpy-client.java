@@ -7,8 +7,13 @@
  * user guide available at https://docs.gradle.org/2.10/userguide/tutorial_java_projects.html
  */
 
+group 'com.carrene'
+version '0.0.1-SNAPSHOT'
+
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
+
+sourceCompatibility = 1.8
 
 // In this section you declare where to find the dependencies of your project
 repositories {
